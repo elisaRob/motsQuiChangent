@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:darkslategray
+}
+
+h1{
+    font-size:50px;
+    color:white;
+    font-family:arial;
+
+}
+
+span:before{
+    content:'html';
+    text-transform:uppercase;
+    font-family:arial;
+    color:chocolate;
+    font-weight:bold;
+    animation-name:motsQuiChangent;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes motsQuiChangent{
+    15%{
+        content:"html";
+    }
+
+    30%{
+        content:"css";
+    }
+
+    45%{
+        content:"javaScript";
+    }
+
+    60%{
+        content:"php";
+    }
+
+    75%{
+        content:"sql"
+    }
+
+    90%{
+        content:"react";
+    }
+
+    100%{
+        content:"laravel";
+    }
+
+
+
+}
